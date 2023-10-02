@@ -6,12 +6,12 @@
 /*   By: rabril-h <rabril-h@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 11:37:45 by rabril-h          #+#    #+#             */
-/*   Updated: 2023/10/02 12:22:43 by rabril-h         ###   ########.fr       */
+/*   Updated: 2023/10/02 17:37:50 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef HUMANA_HPP
-# define HUMANA_H
+# define HUMANA_HPP
 
 # include "Weapon.h"
 
