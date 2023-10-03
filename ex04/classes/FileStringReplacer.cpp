@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 18:55:01 by rabril-h          #+#    #+#             */
-/*   Updated: 2023/10/03 16:12:03 by rabril-h         ###   ########.fr       */
+//   Updated: 2023/10/03 21:10:40 by rabril-h         ###   ########.fr       //
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,15 +96,13 @@ int FileStringReplacer::run(std::string filename, std::string s1, std::string s2
     this->_s1 = s1;
     this->_s2 = s2;
 
-     std::cout << "filename from run is " << this->_filename << std::endl;
-    
-    // success = this->readInput();
-    // if (success < 0)
-    //     return success;
-    // success = this->replaceString();
-    // if (success)
-    //     return (success);
-    // return (writeFile());
+    success = this->readInput();
+    if (success < 0)
+         return success;
+    success = this->replaceString();
+    if (success)
+        return (success);
+    return (writeFile());
 }
 
 
