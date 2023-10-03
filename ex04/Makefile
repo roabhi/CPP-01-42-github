@@ -6,19 +6,17 @@
 #    By: rabril-h <rabril-h@student.42barcelona.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/02 17:50:50 by rabril-h          #+#    #+#              #
-#    Updated: 2023/10/02 17:52:08 by rabril-h         ###   ########.fr        #
+#    Updated: 2023/10/03 14:52:00 by rabril-h         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Sed
 
 SRCS = main.cpp \
-				#randomChump.cpp \
-				#newZombie.cpp \
-				#./classes/Zombie.cpp 
+				./classes/FileStringReplacer.cpp
 
-HEADER = Zombie.h \
-				#./classes/Zombie.hpp
+HEADER = Sed.h \
+				./classes/FileStringReplacer.hpp
 
 CC = c++
 RM = rm -f
