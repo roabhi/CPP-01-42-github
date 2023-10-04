@@ -6,7 +6,7 @@
 //   By: rabril-h <rabril-h@student.42barc...>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2023/10/04 17:40:11 by rabril-h          #+#    #+#             //
-//   Updated: 2023/10/04 20:45:22 by rabril-h         ###   ########.fr       //
+//   Updated: 2023/10/04 20:58:57 by rabril-h         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -24,14 +24,14 @@ public:
 
 	protected:
 		  
-	static void				debug( Harl* instance );
-	static void				info( Harl* instance );
-	static void				warning( Harl* instance );
-	static void				error( Harl* instance );
+	static void				debug( Harl* pointer );
+	static void				info( Harl* pointere );
+	static void				warning( Harl* pointer );
+	static void				error( Harl* pointer );
 
 	private:
 		  static std::string _levels[4];
-		  static void	(*logFnc [4])( Harl* instance );
+		  static void	(*logFnc [4])( Harl* pointer );
 		  void debug();
 		  void info();
 		  void warning();
